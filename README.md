@@ -1,10 +1,10 @@
-# sagemaker-jumpstart-deployer
+# 🚀 sagemaker-jumpstart-deployer
 
-## Overview
+## 📥 Installation
 
 1. Clone the repo
 ```bash
-git clone https://github.com/jespinoza/sagemaker-jumpstart-deployer.git
+git clone https://github.com/jje-twl/sagemaker-jumpstart-deployer.git
 ```
 
 2. Install the dependencies
@@ -18,9 +18,9 @@ aws configure
 ```
 
 
-## Usage
+## 🧰 Usage
 
-### Help & Options
+### ❓ Help & Options
 
 ```bash
 # General help
@@ -33,7 +33,7 @@ python deploy.py delete --help
 ```
 
 
-### Deploying a model 
+### 🚀 Deploying a model 
 
 ```bash
 # Deploy default model (Mistral 7B)
@@ -52,7 +52,7 @@ python deploy.py deploy --instance-type ml.g5.4xlarge
 python deploy.py deploy --wait
 ```
 
-### Listing Models and Endpoints
+### 📜 Listing Models and Endpoints
 
 
 ```bash
@@ -69,7 +69,7 @@ python deploy.py list --models-only
 python deploy.py list --json
 ```
 
-### Deleting a models and endpoints
+### ❌ Deleting a models and endpoints
 
 ```bash
 # Delete an endpoint (and its models)
