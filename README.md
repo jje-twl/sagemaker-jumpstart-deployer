@@ -40,10 +40,10 @@ python deploy.py delete --help
 python deploy.py deploy
 
 # Deploy a specific model
-python deploy.py deploy --model-id huggingface-llm-mistral-7b-v3
+python deploy.py deploy --model-id meta-tc-llama-prompt-guard-86m
 
 # Deploy with specific version
-python deploy.py deploy --model-id huggingface-llm-mistral-7b-v3 --model-version "1.1.6"
+python deploy.py deploy --model-id meta-tc-llama-prompt-guard-86m --model-version "1.1.6"
 
 # Deploy with a different instance type
 python deploy.py deploy --instance-type ml.g5.4xlarge
@@ -51,6 +51,11 @@ python deploy.py deploy --instance-type ml.g5.4xlarge
 # Deploy and wait for completion (not async)
 python deploy.py deploy --wait
 ```
+
+#### 📸 Deployment example output to console
+
+![Deployment example](images/deploy.png)
+
 
 ### 📜 Listing Models and Endpoints
 
@@ -68,6 +73,11 @@ python deploy.py list --models-only
 # Get JSON output
 python deploy.py list --json
 ```
+
+#### 📸 Listing models and endpoints output to console
+
+![Deployment example](images/list.png)
+
 
 ### ❌ Deleting a models and endpoints
 
